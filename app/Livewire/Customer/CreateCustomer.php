@@ -20,7 +20,7 @@ class CreateCustomer extends Component implements HasActions, HasSchemas
     use InteractsWithSchemas;
 
     
-public ?array $data = [];
+    public ?array $data = [];
 
     public function mount(): void
     {

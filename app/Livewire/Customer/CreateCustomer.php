@@ -19,12 +19,7 @@ class CreateCustomer extends Component implements HasActions, HasSchemas
     use InteractsWithActions;
     use InteractsWithSchemas;
 
-    public ?array $data = [];
-
-    public function mount(): void
-    {
-        $this->form->fill();
-    }
+    
 
     public function form(Schema $schema): Schema
     {
